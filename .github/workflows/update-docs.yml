@@ -1,0 +1,59 @@
+name: Update Documentation
+
+on:
+  schedule:
+    # Executar toda segunda-feira às 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # Permitir execução manual
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update all official docs
+        run: |
+          chmod +x scripts/update-docs.sh
+          ./scripts/update-docs.sh
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/
+          git commit -m "chore: update documentation files [automated]"
+          git push
+
+      - name: Create PR if changed
+        if: steps.git-check.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update llms.txt documentation'
+          title: '🔄 Automated Documentation Update'
+          body: |
+            ## Automated Documentation Update
+
+            This PR was automatically created by the scheduled workflow.
+
+            ### Changes
+            - Updated one or more llms.txt files from official sources
+
+            ### Review Checklist
+            - [ ] Verify changes are legitimate updates
+            - [ ] Check for breaking changes in documentation
+            - [ ] Update INDEX.md if needed
+
+            **Triggered by**: Scheduled workflow
+            **Date**: ${{ github.event.head_commit.timestamp }}
+          branch: automated-docs-update
+          delete-branch: true
