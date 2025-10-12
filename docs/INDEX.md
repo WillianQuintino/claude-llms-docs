@@ -129,6 +129,16 @@ Este diretório contém documentações oficiais (arquivos `llms.txt`) das bibli
 
 ---
 
+### ✅ Messaging & Communication
+
+#### WhatsApp Web.js
+- **Arquivo**: [`whatsapp-web-js/custom-guide.md`](./whatsapp-web-js/custom-guide.md)
+- **Fonte**: https://docs.wwebjs.dev
+- **Descrição**: WhatsApp API client para automação
+- **Status**: ✅ Documentação customizada criada
+
+---
+
 ## 📖 Como Usar
 
 ### Consulta Prioritária
@@ -154,7 +164,7 @@ Cada arquivo de documentação arquivado contém metadados no início:
 
 **Data**: 2025-10-12
 
-**Documentações Oficiais (llms.txt)**: 8/16
+**Documentações Oficiais (llms.txt)**: 8/17
 - ✅ DaisyUI
 - ✅ Next.js
 - ✅ Tauri
@@ -164,7 +174,7 @@ Cada arquivo de documentação arquivado contém metadados no início:
 - ✅ TurboRepo
 - ✅ Firebase
 
-**Documentações Customizadas**: 8/16
+**Documentações Customizadas**: 9/17
 - ✅ React (não possui llms.txt oficial)
 - ✅ MySQL2 (não possui llms.txt oficial)
 - ✅ NextAuth.js (não possui llms.txt oficial)
@@ -173,8 +183,9 @@ Cada arquivo de documentação arquivado contém metadados no início:
 - ✅ Jotai (não possui llms.txt oficial)
 - ✅ SWR (não possui llms.txt oficial)
 - ✅ React Hook Form (não possui llms.txt oficial)
+- ✅ WhatsApp Web.js (não possui llms.txt oficial)
 
-**Total**: 16/16 ✅ **COMPLETO**
+**Total**: 17/17 ✅ **COMPLETO**
 
 ## 📌 Notas
 
