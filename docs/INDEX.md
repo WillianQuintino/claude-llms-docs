@@ -12,6 +12,12 @@ Este diretório contém documentações oficiais (arquivos `llms.txt`) das bibli
 - **Descrição**: CSS library para Tailwind CSS 4 com componentes semânticos
 - **Status**: ✅ Documentação oficial arquivada
 
+#### Tailwind CSS v4
+- **Arquivo**: [`tailwindcss/custom-guide.md`](./tailwindcss/custom-guide.md)
+- **Fonte**: https://tailwindcss.com/docs
+- **Descrição**: Framework CSS utility-first
+- **Status**: ✅ Documentação customizada criada
+
 #### Shadcn UI
 - **Arquivo**: [`shadcn/custom-guide.md`](./shadcn/custom-guide.md)
 - **Fonte**: https://ui.shadcn.com/docs
@@ -71,7 +77,43 @@ Este diretório contém documentações oficiais (arquivos `llms.txt`) das bibli
 
 ---
 
+### ✅ State Management
+
+#### Jotai
+- **Arquivo**: [`jotai/custom-guide.md`](./jotai/custom-guide.md)
+- **Fonte**: https://jotai.org/docs
+- **Descrição**: State management atômico para React
+- **Status**: ✅ Documentação customizada criada
+
+---
+
+### ✅ Data Fetching
+
+#### SWR
+- **Arquivo**: [`swr/custom-guide.md`](./swr/custom-guide.md)
+- **Fonte**: https://swr.vercel.app
+- **Descrição**: React Hooks para data fetching
+- **Status**: ✅ Documentação customizada criada
+
+---
+
+### ✅ Forms
+
+#### React Hook Form
+- **Arquivo**: [`react-hook-form/custom-guide.md`](./react-hook-form/custom-guide.md)
+- **Fonte**: https://react-hook-form.com
+- **Descrição**: Biblioteca de formulários performática
+- **Status**: ✅ Documentação customizada criada
+
+---
+
 ### ✅ Backend & Database
+
+#### Firebase
+- **Arquivo**: [`firebase/llms.txt`](./firebase/llms.txt)
+- **Fonte**: https://firebase.google.com/docs/llms.txt
+- **Descrição**: Plataforma de desenvolvimento (Firestore, Auth, Storage)
+- **Status**: ✅ Documentação oficial arquivada
 
 #### MySQL2
 - **Arquivo**: [`mysql2/custom-guide.md`](./mysql2/custom-guide.md)
@@ -110,9 +152,9 @@ Cada arquivo de documentação arquivado contém metadados no início:
 
 ## 🔄 Última Atualização
 
-**Data**: 2025-10-10
+**Data**: 2025-10-12
 
-**Documentações Oficiais (llms.txt)**: 7/11
+**Documentações Oficiais (llms.txt)**: 8/16
 - ✅ DaisyUI
 - ✅ Next.js
 - ✅ Tauri
@@ -120,14 +162,19 @@ Cada arquivo de documentação arquivado contém metadados no início:
 - ✅ Zod
 - ✅ Prettier
 - ✅ TurboRepo
+- ✅ Firebase
 
-**Documentações Customizadas**: 4/11
+**Documentações Customizadas**: 8/16
 - ✅ React (não possui llms.txt oficial)
 - ✅ MySQL2 (não possui llms.txt oficial)
 - ✅ NextAuth.js (não possui llms.txt oficial)
 - ✅ Shadcn UI (não possui llms.txt oficial)
+- ✅ Tailwind CSS (não possui llms.txt oficial)
+- ✅ Jotai (não possui llms.txt oficial)
+- ✅ SWR (não possui llms.txt oficial)
+- ✅ React Hook Form (não possui llms.txt oficial)
 
-**Total**: 11/11 ✅ **COMPLETO**
+**Total**: 16/16 ✅ **COMPLETO**
 
 ## 📌 Notas
 
