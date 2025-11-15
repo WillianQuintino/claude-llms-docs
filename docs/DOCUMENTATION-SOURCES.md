@@ -7,8 +7,9 @@ Sempre consulte os arquivos `llms.txt` locais antes de buscar online.
 
 ### UI/Frontend
 - **DaisyUI**: https://daisyui.com/llms.txt
-- **Shadcn UI**: https://ui.shadcn.com/docs (verificar se tem llms.txt)
-- **React**: https://react.dev/reference/react
+- **dnd-kit**: https://docs.dndkit.com/llms.txt
+- **Shadcn UI**: https://ui.shadcn.com/docs (não possui llms.txt oficial)
+- **React**: https://react.dev/reference/react (não possui llms.txt oficial)
 
 ### Build Tools & Framework
 - **TurboRepo**: https://turbo.build/llms.txt
@@ -28,17 +29,24 @@ Sempre consulte os arquivos `llms.txt` locais antes de buscar online.
 
 | Biblioteca | URL Oficial | Status | Caminho Local |
 |-----------|-------------|--------|---------------|
-| DaisyUI | https://daisyui.com/llms.txt | ✅ Arquivado (2025-10-10) | `.claude/docs/daisyui/llms.txt` |
-| TurboRepo | https://turbo.build/llms.txt | ✅ Arquivado (2025-10-10) | `.claude/docs/turborepo/llms.txt` |
-| Next.js | https://nextjs.org/docs/llms-full.txt | ✅ Arquivado (2025-10-10) | `.claude/docs/nextjs/llms-full.txt` |
-| Tauri | https://tauri.app/llms.txt | ✅ Arquivado (2025-10-10) | `.claude/docs/tauri/llms.txt` |
-| Vite | https://vite.dev/llms.txt | ✅ Arquivado (2025-10-10) | `.claude/docs/vite/llms.txt` |
-| Zod | https://zod.dev/llms.txt | ✅ Arquivado (2025-10-10) | `.claude/docs/zod/llms.txt` |
-| Prettier | https://prettier.io/llms.txt | ✅ Arquivado (2025-10-10) | `.claude/docs/prettier/llms.txt` |
-| React | https://react.dev/reference/react | 📝 Custom (2025-10-10) | `.claude/docs/react/custom-guide.md` |
-| MySQL2 | https://sidorares.github.io/node-mysql2/docs | 📝 Custom (2025-10-10) | `.claude/docs/mysql2/custom-guide.md` |
-| NextAuth.js | https://next-auth.js.org/ | 📝 Custom (2025-10-10) | `.claude/docs/nextauth/custom-guide.md` |
-| Shadcn UI | https://ui.shadcn.com/docs | 📝 Custom (2025-10-10) | `.claude/docs/shadcn/custom-guide.md` |
+| DaisyUI | https://daisyui.com/llms.txt | ✅ Arquivado (2025-10-10) | `docs/daisyui/llms.txt` |
+| dnd-kit | https://docs.dndkit.com/llms.txt | ✅ Arquivado (2025-01-15) | `docs/dnd-kit/llms.txt` |
+| TurboRepo | https://turbo.build/llms.txt | ✅ Arquivado (2025-10-10) | `docs/turborepo/llms.txt` |
+| Next.js | https://nextjs.org/docs/llms-full.txt | ✅ Arquivado (2025-10-10) | `docs/nextjs/llms-full.txt` |
+| Tauri | https://tauri.app/llms.txt | ✅ Arquivado (2025-10-10) | `docs/tauri/llms.txt` |
+| Vite | https://vite.dev/llms.txt | ✅ Arquivado (2025-10-10) | `docs/vite/llms.txt` |
+| Zod | https://zod.dev/llms.txt | ✅ Arquivado (2025-10-10) | `docs/zod/llms.txt` |
+| Prettier | https://prettier.io/llms.txt | ✅ Arquivado (2025-10-10) | `docs/prettier/llms.txt` |
+| Firebase | https://firebase.google.com/docs/llms.txt | ✅ Arquivado (2025-10-10) | `docs/firebase/llms.txt` |
+| React | https://react.dev/reference/react | 📝 Custom (2025-10-10) | `docs/react/custom-guide.md` |
+| MySQL2 | https://sidorares.github.io/node-mysql2/docs | 📝 Custom (2025-10-10) | `docs/mysql2/custom-guide.md` |
+| NextAuth.js | https://next-auth.js.org/ | 📝 Custom (2025-10-10) | `docs/nextauth/custom-guide.md` |
+| Shadcn UI | https://ui.shadcn.com/docs | 📝 Custom (2025-10-10) | `docs/shadcn/custom-guide.md` |
+| Tailwind CSS | https://tailwindcss.com/docs | 📝 Custom (2025-10-10) | `docs/tailwindcss/custom-guide.md` |
+| Jotai | https://jotai.org/docs | 📝 Custom (2025-10-10) | `docs/jotai/custom-guide.md` |
+| SWR | https://swr.vercel.app | 📝 Custom (2025-10-10) | `docs/swr/custom-guide.md` |
+| React Hook Form | https://react-hook-form.com | 📝 Custom (2025-10-10) | `docs/react-hook-form/custom-guide.md` |
+| WhatsApp Web.js | https://docs.wwebjs.dev | 📝 Custom (2025-10-10) | `docs/whatsapp-web-js/custom-guide.md` |
 
 ## Como Atualizar Documentações
 

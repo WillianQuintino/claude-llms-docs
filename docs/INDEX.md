@@ -30,6 +30,12 @@ Este diretório contém documentações oficiais (arquivos `llms.txt`) das bibli
 - **Descrição**: Biblioteca JavaScript para construir interfaces
 - **Status**: ✅ Documentação customizada criada
 
+#### dnd-kit
+- **Arquivo**: [`dnd-kit/llms.txt`](./dnd-kit/llms.txt)
+- **Fonte**: https://docs.dndkit.com/llms.txt
+- **Descrição**: Toolkit modular para drag & drop em React
+- **Status**: ✅ Documentação oficial arquivada
+
 ---
 
 ### ✅ Framework & Build Tools
@@ -162,10 +168,11 @@ Cada arquivo de documentação arquivado contém metadados no início:
 
 ## 🔄 Última Atualização
 
-**Data**: 2025-10-12
+**Data**: 2025-01-15
 
-**Documentações Oficiais (llms.txt)**: 8/17
+**Documentações Oficiais (llms.txt)**: 9/18
 - ✅ DaisyUI
+- ✅ dnd-kit
 - ✅ Next.js
 - ✅ Tauri
 - ✅ Vite
@@ -174,7 +181,7 @@ Cada arquivo de documentação arquivado contém metadados no início:
 - ✅ TurboRepo
 - ✅ Firebase
 
-**Documentações Customizadas**: 9/17
+**Documentações Customizadas**: 9/18
 - ✅ React (não possui llms.txt oficial)
 - ✅ MySQL2 (não possui llms.txt oficial)
 - ✅ NextAuth.js (não possui llms.txt oficial)
@@ -185,7 +192,7 @@ Cada arquivo de documentação arquivado contém metadados no início:
 - ✅ React Hook Form (não possui llms.txt oficial)
 - ✅ WhatsApp Web.js (não possui llms.txt oficial)
 
-**Total**: 17/17 ✅ **COMPLETO**
+**Total**: 18/18 ✅ **COMPLETO**
 
 ## 📌 Notas
 
