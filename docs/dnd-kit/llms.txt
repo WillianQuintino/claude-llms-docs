@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dnd kit – a modern drag and drop toolkit for React</title>
+    <meta
+      name="description"
+      content="A modern, lightweight, performant, accessible and extensible drag & drop toolkit for React."
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon-16x16.png"
+    />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="rgb(24, 26, 34)" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Social Media Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dnd-kit" />
+    <meta property="og:type" content="website" />
+    <meta
+      name="twitter:title"
+      content="dnd kit – a modern drag and drop toolkit for React"
+    />
+    <meta
+      property="og:title"
+      content="dnd kit – a modern drag and drop toolkit for React"
+    />
+    <meta
+      name="twitter:description"
+      content="A modular, lightweight, performant, accessible and extensible drag & drop toolkit for React."
+    />
+    <meta
+      property="og:description"
+      content="A modular, lightweight, performant, accessible and extensible drag & drop toolkit for React."
+    />
+    <meta
+      name="twitter:image"
+      content="https://dndkit.com/twitter-social-banner.png"
+    />
+    <meta
+      property="og:image"
+      content="https://dndkit.com/twitter-social-banner.png"
+    />
+    <script type="module" crossorigin src="/assets/index-CdEY8rMk.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DdAsvWw4.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
